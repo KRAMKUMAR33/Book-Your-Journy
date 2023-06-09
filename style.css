@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.nav1 ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+   
+}
+.nav1 ul li a,.nav2 span a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: rgb(58, 83, 243);
+    
+    
+}
+
+.nav1 ul li{
+    padding-right: 40px;
+}
+
+.nav1 ul li:nth-child(1){
+    padding-left: 30px;
+
+}
+
+.nav2 span a{
+    padding: 6px;
+}
+.nav2 span {
+    padding: 6px;
+}
+.nav2 span:nth-child(3){
+    padding-right: 30px;
+
+}
+
+
+.nav2 a{
+  margin-bottom: 5px;
+  
+    
+}
+
+#tb:hover{
+    background-color: rgb(16, 36, 189);
+    color: white;
+    border-radius: 5px;
+  
+}
+
+.nav1 ul li a{
+    padding: 5px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+}
+.lm{
+    text-align: center;
+}
+/* ======================navbar===================================================== */
+
+.cc{
+    text-align: center;
+
+}
+.cc h1{
+     font-size: 80px;
+}
+
+#inp{
+   width: 600px;
+   text-align: center;
+   margin-left: 450px;
+
+}
+
+#pdi{
+  margin-bottom: 30px;
+}
+
+
+#ct{
+    text-align: center;
+    
+}
+#ct span{
+    padding: 6px;
+}

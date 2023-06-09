@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    
+</head>
+<style>
+  p a{
+        text-decoration: none;
+    }
+
+    /* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-menu a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+
+<body>
+
+ <nav>
+    <div class="lm">
+    <span class="logo"><a href="./index_home.html">Book Your Journy</a></div>
+
+    </span>
+    <div class="nav1">
+     <ul>
+      <li><a id="tb" href="./hom1.html">HOTEL</a></li>
+      <li><a id="tb" href="./train.html">TRAIN</a></li>
+      <li><a id="tb" href="./flight.html">FLIGHT</a></li>
+     
+     
+
+   </ul>
+   <div class="nav2">
+      <span><a id="tb"  href="./help.html">Help</a></span>
++
+      <span><a id="tb"  href="./signup.html">Register</a></span>
+      <span><a id="tb"  href="./sign.html">Sign in</a></span>
+
+     </div>
+    </div>
+
+ </nav>
+ <!-- ===============================================nav================================================================= -->
+   <div class="row">
+    <div class="col-sm-4 col-m-2">
+        <br>
+       
+
+            <div style="background-color: yellow;" class="card" style="width: 15rem;">
+                
+                <div class="card-body">
+                  <h5 class="card-title">search</h5>
+                  
+                  <input type="text" class="form-control"><br>
+                  <h4>check in</h4>
+                  <input type="datetime-local" class="form-control"><br>
+                  <h4>check out</h4>
+                  <input type="datetime-local" class="form-control"><br>
+
+                  <div class="dropdown-center">
+                    <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      select no of persons
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">1</a></li>
+                      <li><a class="dropdown-item" href="#">2</a></li>
+                      <li><a class="dropdown-item" href="#">3</a></li>
+                    </ul>
+                  </div>
+                  <br>
+                  <a href="#" style="margin-left: 45px;" class="btn btn-primary">search</a>
+                  
+                </div>
+              </div>
+           
+
+    
+        <div class="row">
+           
+
+        </div>
+    </div>
+    <div class="col-sm-8 col-10">
+        <br>
+        <div class="dropdown">
+            <button  class="btn btn-secondary dropdown  dropbtn" type="button" data-bs-toggle="dropdown"  aria-expanded="false">
+             sort by
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">new</a></li>
+              <li><a class="dropdown-item" href="#">low</a></li>
+              <li><a class="dropdown-item" href="#">high</a></li>
+            </ul>
+          </div>
+          <br><br>
+
+
+        <div class="row">
+            <div  class="col-lg-4 col">
+                <div id="pdi" class="card" style="width: 18rem;">
+                    <img src="./14611633.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">
+                        Beverly villaOpens in new window
+                        </h5>
+                      <p class="card-text">Located in Ooty, 4 km from Ooty Lake, Beverly villa provides accommodation with a garden, free private parking, a shared lounge and a terrace.</p>
+                      <a href="#" class="btn btn-primary">show prices</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col">
+                    <div  id="pdi" class="card" style="width: 18rem;">
+                        <img src="./204827666.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Astoria Residency</h5>
+                          <p class="card-text">Astoria Residency is situated 500 metres from the Government Botanical Gardens, Ooty. It houses shops, a restaurant and a business centre. Complimentary Wi-Fi access is provided.</p>
+                          <a href="#" class="btn btn-primary">show prices</a>
+                        </div>
+                      </div>
+                   
+    
+                </div>
+                <div class="col-lg-4 col">
+                    <div  id="pdi" class="card" style="width: 18rem;">
+                        <img src="./329450084.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">The Byke Sunshine GrandOpens in new window
+                        </h5>
+                          <p class="card-text">Situated in Ooty, 4.4 km from Ooty Lake, The Byke Sunshine Grand features accommodation with a restaurant, free private parking and a bar.</p>
+                          <a href="#" class="btn btn-primary">show prices</a>
+                        </div>
+                      </div>
+                   
+    
+                </div>
+                  
+               
+
+            </div>
+            <div class="col-4">
+                <div id="pdi" class="card" style="width: 18rem;">
+                    <img src="./1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">LS Cottage</h5>
+                      <p class="card-text">Boasting a garden, a terrace as well as barbecue facilities, LS Cottage is situated in Ooty, within 8.5 km of Ooty Lake and 3.1 km of Ooty Doddabetta Peak.</p>
+                      <a href="#" class="btn btn-primary">show prices</a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div id="pdi" class="card" style="width: 18rem;">
+                        <img src="./3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">OOTY HILLS SKY</h5>
+                          <p class="card-text">ocated 4.6 km from Ooty Lake, less than 1 km from Ooty Botanical Gardens and 2.5 km from Ooty Rose Garden, OOTY HILLS SKY provides accommodation situated in Ooty.</p>
+                          <a href="#" class="btn btn-primary">show prices</a>
+                        </div>
+                      </div>
+                   
+    
+                </div>
+                <div class="col">
+                    <div id="pdi" class="card" style="width: 18rem;">
+                        <img src="./2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">QUEENS COTTAGE - individual cottage</h5>
+                          <p class="card-text">Situated in Ooty, within 6 km of Ooty Lake and 2.5 km of Ooty Doddabetta Peak, QUEENS COTTAGE - individual cottage features accommodation with a shared lounge and as well as free private parking for...</p>
+                          <a href="#" class="btn btn-primary">show prices</a>
+                        </div>
+                      </div>
+                   
+    
+                </div>
+               
+
+            </div>
+            <div class="col-4">
+                <div id="pdi" class="card" style="width: 18rem;">
+                    <img src="./4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">BoB's White House Ooty</h5>
+                      <p class="card-text">Situated in Ooty, 2.5 km from Ooty Lake, BoB's White House Ooty features accommodation with a garden, free private parking and a terrace.</p>
+                      <a href="#" class="btn btn-primary">show prices</a>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div id="pdi" class="card" style="width: 18rem;">
+                        <img src="./5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">SEVEN HILL GUEST HOUSE</h5>
+                          <p class="card-text">SEVEN HILL GUEST HOUSE is located in Ooty, 4.9 km from Ooty Lake, 1.2 km from Ooty Botanical Gardens, and 2.7 km from Ooty Rose Garden.</p>
+                          <a href="#" class="btn btn-primary">show prices</a>
+                        </div>
+                      </div>
+                   
+    
+                </div>
+                <div class="col">
+                    <div id="pdi" class="card" style="width: 18rem;">
+                        <img src="./6.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">
+                            Osprey Individual Cottage</h5>
+                          <p class="card-text">Situated 4.4 km from Ooty Lake, Osprey Individual Cottage features accommodation with a terrace, a restaurant and a 24-hour front desk for your convenience.</p>
+                          <a href="#" class="btn btn-primary">show prices</a>
+                        </div>
+                      </div>
+                   
+    
+                </div>
+               
+
+            </div>
+     
+    </div>
+
+
+   </div>
+   </div>
+
+
+
+
+
+
+
+
+<!-- ==================================================footer================================= -->
+
+
+<div  class="container">
+  <footer class="py-0">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Link 1</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./index_home.html" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="./hom1.html" class="nav-link p-0 text-muted">Hotel</a></li>
+          <li class="nav-item mb-2"><a href="./train.html" class="nav-link p-0 text-muted">Train</a></li>
+          <li class="nav-item mb-2"><a href="./flight.html" class="nav-link p-0 text-muted">Flight</a></li>
+         
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Link 2</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./index_home.html" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="./hom1.html" class="nav-link p-0 text-muted">Hotel</a></li>
+          <li class="nav-item mb-2"><a href="./train.html" class="nav-link p-0 text-muted">Train</a></li>
+          <li class="nav-item mb-2"><a href="./flight.html" class="nav-link p-0 text-muted">Flight</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Link 3</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./index_home.html" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="./hom1.html" class="nav-link p-0 text-muted">Hotel</a></li>
+          <li class="nav-item mb-2"><a href="./train.html" class="nav-link p-0 text-muted">Train</a></li>
+          <li class="nav-item mb-2"><a href="./flight.html" class="nav-link p-0 text-muted">Flight</a></li>
+        </ul>
+      </div>
+      
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2022 Company, Inc. All rights reserved.</p><P><a href="./ABOUT.HTML">About</a></P></p><P><a href="./guide lines.html">Guide Lines</a></P></p><P><a href="./terms.html">Terms & Conditions</a></P></p><P><a href="./privacy policy.html">Privacy Policy</a></P>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
